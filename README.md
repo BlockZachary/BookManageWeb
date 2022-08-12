@@ -28,23 +28,23 @@
 
 首先创建admin表
 
-![](image/image_BKJM3XFMPY.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_BKJM3XFMPY.png)
 
 插入一条数据
 
-![](image/image_54bI3v7-8R.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_54bI3v7-8R.png)
 
 创建一个新的Java项目
 
-![](image/image_3hi_Qw_YfR.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_3hi_Qw_YfR.png)
 
 配置好`Servlet`和`Thymeleaf`
 
-![](image/image_0tOI24FBFc.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_0tOI24FBFc.png)
 
 删除掉默认创建的应用
 
-![](image/image_dm1k53s_vG.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_dm1k53s_vG.png)
 
 修改一下pom.xml依赖
 
@@ -72,15 +72,15 @@
 </dependency>
 ```
 
-![](image/image_DdQa0KsIg7.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_DdQa0KsIg7.png)
 
 将模板的login.html移动到项目目录下的resources下
 
-![](image/image_xnhnno7K4J.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_xnhnno7K4J.png)
 
 将模板下的static文件夹拷贝至项目目录下的webapp文件夹下
 
-![](image/image_G6nJ-DLkyG.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_G6nJ-DLkyG.png)
 
 在Java文件夹下创建包名`com.book.servlet.auth`然后在包下创建第一个servlet`LoginServlet`
 
@@ -136,13 +136,13 @@ public class ThymeleafUtil {
 
 修改一下Tomcat的配置
 
-![](image/image_kkY6vyqOg5.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_kkY6vyqOg5.png)
 
-![](image/image_HP0ltA6Q1X.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_HP0ltA6Q1X.png)
 
 现在运行一下
 
-![](image/image_BuN87aLnqK.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_BuN87aLnqK.png)
 
 修改一下原来的login.html
 
@@ -150,7 +150,7 @@ public class ThymeleafUtil {
 
 ```
 
-![](image/image_qr4KMhkY1Y.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_qr4KMhkY1Y.png)
 
 定义实体类包`com.book.entity`
 
@@ -378,7 +378,7 @@ public class LoginServlet extends HttpServlet {
 
 接下来加入一个新的页面，主页 ===> `index.html`
 
-![](image/image_Oqv9IIW1c3.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_Oqv9IIW1c3.png)
 
 在`com.book.servlet.pages`包下创建一个新的`IndexServlet`
 
@@ -407,7 +407,7 @@ public class IndexServlet extends HttpServlet {
 
 运行一下项目 登录后成功跳转
 
-![](image/image_CpIOmeSJFm.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_CpIOmeSJFm.png)
 
 接下来修改一下这个`index.html`，让他变成一个我们的图书管理的界面
 
@@ -447,7 +447,7 @@ public class IndexServlet extends HttpServlet {
 
 可以看到页面已经精简很多了
 
-![](image/image_v3KxlbtY0D.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_v3KxlbtY0D.png)
 
 下一步哦，创建一个新的servlet，在包名`com.book.servlet.auth`下名称为`LogoutServlet`
 
@@ -575,7 +575,7 @@ public class StudentServlet extends HttpServlet {
 
 运行一下，现在可以跳转到学生列表啦
 
-![](image/image_ojl7_7UBiC.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_ojl7_7UBiC.png)
 
 接下来看看图书列表
 
@@ -620,7 +620,7 @@ public class BookServlet extends HttpServlet {
 
 修改一下数据库的borrow表
 
-![](image/image_mYDpZEMk4d.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_mYDpZEMk4d.png)
 
 接下来修改一下 借阅列表的信息
 
@@ -789,7 +789,7 @@ public class IndexServlet extends HttpServlet {
 
 运行一下项目
 
-![](image/image_c_IA1FXnJk.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_c_IA1FXnJk.png)
 
 接下来完善一下归还功能
 
@@ -918,7 +918,7 @@ public interface BookMapper {
 
 主要是修改了这个
 
-![](image/image_vI1zwgVaMI.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_vI1zwgVaMI.png)
 
 接着继续完善
 
@@ -1311,7 +1311,7 @@ public class AddBorrowServlet extends HttpServlet {
 
 ```
 
-![](image/image_-W6VKObrOh.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_-W6VKObrOh.png)
 
 这里就可以实现借书管理啦
 
@@ -1470,7 +1470,7 @@ public class BookServlet extends HttpServlet {
 
 ```
 
-![](image/image_9R2onRqqVm.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_9R2onRqqVm.png)
 
 稍微修改一下，`BookMapper`
 
@@ -1667,7 +1667,7 @@ public class BookServiceImpl implements BookService {
 
 主要是改了这里
 
-![](image/image__OW-yBgJ2O.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image__OW-yBgJ2O.png)
 
 拷贝一下add-borrow\.html 让他变成`add-book.html`
 
@@ -1708,7 +1708,7 @@ public class AddBookServlet extends HttpServlet {
 
 修改了这里
 
-![](image/image_d8Q66DBLGd.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_d8Q66DBLGd.png)
 
 创建一个新的`add-book.html`
 
@@ -1928,9 +1928,9 @@ public interface BookMapper {
 
 运行一下
 
-![](image/image_jn8NBV6LrS.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_jn8NBV6LrS.png)
 
-![](image/image_DqXoo05Qlv.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_DqXoo05Qlv.png)
 
 接下来修改`student.html`
 
@@ -2026,7 +2026,7 @@ public class IndexServlet extends HttpServlet {
 
 ```
 
-![](image/image_KR0tsan8oW.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_KR0tsan8oW.png)
 
 实现一下 `记住我`
 
@@ -2155,14 +2155,14 @@ public class LogoutServlet extends HttpServlet {
 
 接下来实现以下项目的打包
 
-![](image/image_c-6RtDRQwK.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_c-6RtDRQwK.png)
 
-!\[]\(image/image\_fSPxF9AfS \_.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image\_fSPxF9AfS.png)
 
 然后启动一下服务器
 
-![](image/image_gwvqISsUOD.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_gwvqISsUOD.png)
 
 浏览器输入[http://localhost:8080/books](http://localhost:8080/books "http://localhost:8080/books")
 
-![](image/image_0ZO6A0lEGQ.png)
+![](https://raw.githubusercontent.com/BlockZachary/BookManageWeb/master/image/image_0ZO6A0lEGQ.png)
